@@ -29,7 +29,7 @@ const NavMenu = () => {
                       className={`block w-full text-left px-6 py-3 text-base text-gray-600 ${
                         isActive ? "bg-gray-100 text-gray-900" : ""
                       } data-[focus]:bg-gray-100`}
-                      href="/account-settings"
+                      href="/todo-list"
                     >
                       <img
                         src="images/icon-todo.svg"
@@ -46,7 +46,7 @@ const NavMenu = () => {
                       className={`block w-full text-left px-6 py-3 text-base text-gray-600 ${
                         isActive ? "bg-gray-100 text-gray-900" : ""
                       } data-[focus]:bg-gray-100`}
-                      href="/account-settings"
+                      href="/calendar"
                     >
                       <img
                         src="images/icon-calendar.svg"
@@ -63,7 +63,7 @@ const NavMenu = () => {
                       className={`block w-full text-left px-6 py-3 text-base text-gray-600 ${
                         isActive ? "bg-gray-100 text-gray-900" : ""
                       } data-[focus]:bg-gray-100`}
-                      href="/account-settings"
+                      href="/reminders"
                     >
                       <img
                         src="images/icon-reminders.svg"
@@ -80,7 +80,7 @@ const NavMenu = () => {
                       className={`block w-full text-left px-6 py-3 text-base text-gray-600 ${
                         isActive ? "bg-gray-100 text-gray-900" : ""
                       } data-[focus]:bg-gray-100`}
-                      href="/account-settings"
+                      href="/planning"
                     >
                       <img
                         src="images/icon-planning.svg"
@@ -120,7 +120,7 @@ const NavMenu = () => {
                       className={`block w-full text-left px-6 py-3 text-base text-gray-600 ${
                         isActive ? "bg-gray-100 text-gray-900" : ""
                       } data-[focus]:bg-gray-100`}
-                      href="/account-settings"
+                      href="/history"
                     >
                       History
                     </a>
@@ -132,7 +132,7 @@ const NavMenu = () => {
                       className={`block w-full text-left px-6 py-3 text-base text-gray-600 ${
                         isActive ? "bg-gray-100 text-gray-900" : ""
                       } data-[focus]:bg-gray-100`}
-                      href="/account-settings"
+                      href="/our-team"
                     >
                       Our Team
                     </a>
@@ -144,7 +144,7 @@ const NavMenu = () => {
                       className={`block w-full text-left px-6 py-3 text-base text-gray-600 ${
                         isActive ? "bg-gray-100 text-gray-900" : ""
                       } data-[focus]:bg-gray-100`}
-                      href="/account-settings"
+                      href="/blog"
                     >
                       Blog
                     </a>

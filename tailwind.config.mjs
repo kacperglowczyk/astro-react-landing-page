@@ -4,12 +4,12 @@ export default {
 	theme: {
 		extend: {
 			container: {
-			center: true,
-		},
-		colors: {
-			"almost-white": "hsl(0, 0%, 98%)",
-			 "medium-gray": "hsl(0, 0%, 41%)",
-			 "almost-black": "hsl(0, 0%, 8%)",
+				center: true,
+			},
+			colors: {
+				"almost-white": "hsl(0, 0%, 98%)",
+				"medium-gray": "hsl(0, 0%, 41%)",
+				"almost-black": "hsl(0, 0%, 8%)",
 			},
 		},
 	},
