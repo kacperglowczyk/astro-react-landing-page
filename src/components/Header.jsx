@@ -2,14 +2,16 @@ import { useState } from 'react';
 import NavMenu from "./NavMenu.jsx";
 import Sidebar from "./Sidebar.jsx";
 
+
 const Header = () => {
     const [sidebarOpen, setSidebarOpen] = useState(false);
+    
 
     return (
         <header>
             <div className="flex py-5 px-4">
                 <div className="flex item-center pt-3">
-                    <img src="images/logo.svg" alt="snap logo" />
+                    <img src="./images/logo.svg" alt="snap logo" />
                 </div>
                 <div className="flex-grow flex items-center z-20">
                     <NavMenu />
